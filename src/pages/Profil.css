@@ -1,0 +1,193 @@
+/* Umum */
+.profil-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.section {
+  padding: 60px 20px;
+}
+
+h2, h3 {
+  font-weight: 700;
+  color: #1464f6;
+  margin-bottom: 20px;
+}
+
+p, li {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Hero Section */
+.hero-profil {
+  background: linear-gradient(to right, #1565c0, #1e88e5);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+}
+
+.hero-profil p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Visi Misi */
+.visi-misi-list {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 1.2rem;
+  text-align: left;
+  list-style: disc;
+}
+
+/* Table Styling */
+.table-custom {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
+
+.table-custom th {
+  background: linear-gradient(to right, #1e88e5, #1565c0);
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+}
+
+.table-custom td {
+  background-color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.table-custom tr:nth-child(even) td {
+  background-color: #f2f7fc;
+}
+
+.table-custom tr:last-child td {
+  border-bottom: none;
+}
+
+/* Peta iframe */
+.ratio iframe {
+  border-radius: 10px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Kontak Info */
+.section.text-center p {
+  font-size: 1.05rem;
+  color: #333;
+}
+
+/* Animasi Hover */
+@media (hover: hover) {
+  .table-custom tr:hover td {
+    background-color: #e8f0fe;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-profil h2 {
+    font-size: 2rem;
+  }
+
+  .hero-profil p {
+    font-size: 1rem;
+  }
+
+  .table-custom {
+    font-size: 0.95rem;
+  }
+
+  .section {
+    padding: 40px 16px;
+  }
+}
+
+.profil-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.visi-list li {
+  padding: 10px 0;
+  font-size: 1.05rem;
+  border-left: 4px solid #ffc107;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
+
+.visi-list li:hover {
+  color: #0d6efd;
+  border-left-color: #0d6efd;
+  background-color: #f8f9fa;
+}
+
+.timeline {
+  list-style: none;
+  padding-left: 0;
+  border-left: 3px solid #0d6efd;
+  margin-left: 20px;
+}
+
+.timeline li {
+  position: relative;
+  padding: 10px 0 10px 15px;
+}
+
+.timeline li::before {
+  content: "●";
+  position: absolute;
+  left: -10px;
+  top: 12px;
+  color: #0d6efd;
+  font-size: 0.8rem;
+}
+
+.trivia-box {
+  border-left: 5px solid #ffc107;
+  background-color: #fffbe6;
+}
+
+.trivia-box {
+  border-left: 5px solid #ffc107;
+  background-color: #fffbe6;
+}
+.accordion-button {
+  font-weight: 500;
+}
+
+
+
