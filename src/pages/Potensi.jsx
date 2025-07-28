@@ -12,7 +12,7 @@ const potensiData = [
   },
   {
     title: 'Telaga Omang',
-    description: `Telaga Omang adalah salah satu daya tarik wisata alam Pedukuhan Sukamaju yang telah dikembangkan menjadi destinasi ekowisata berbasis masyarakat.
+    description: `Telaga Omang adalah salah satu daya tarik wisata alam Pedukuhan Tritis yang telah dikembangkan menjadi destinasi ekowisata berbasis masyarakat.
     Dengan airnya yang jernih, udara segar, dan lingkungan yang masih alami, telaga ini menawarkan pengalaman rekreasi yang tenang dan menyegarkan.
     Warga setempat membentuk kelompok sadar wisata yang mengelola area sekitar telaga, menyediakan fasilitas sederhana seperti saung bambu, jalur tracking ringan, dan spot selfie alami.
     UMKM kuliner sekitar telaga juga berkembang dengan menyajikan makanan khas seperti nasi jagung, gorengan, dan minuman herbal hangat.`,
@@ -29,7 +29,7 @@ const potensiData = [
   {
     title: 'Wayang Wong',
     description: `Wayang Wong adalah pertunjukan drama tari yang mengangkat kisah-kisah pewayangan seperti Ramayana dan Mahabharata.
-    Di Pedukuhan Sukamaju, seni ini hidup dalam sanggar budaya yang dibentuk oleh para seniman dan pelaku seni lokal.
+    Di Pedukuhan Tritis, seni ini hidup dalam sanggar budaya yang dibentuk oleh para seniman dan pelaku seni lokal.
     Pertunjukan Wayang Wong memadukan gerak tari, dialog berbahasa Jawa klasik, serta tata rias dan busana yang kaya makna simbolik.
     Kegiatan ini tidak hanya menjadi media hiburan, tetapi juga sarana edukasi budaya dan spiritual. Pertunjukan sering digelar pada acara selamatan desa dan hari-hari besar tradisional.`,
     media: ['/images/img16.png', '/images/img59.png'],
@@ -37,7 +37,7 @@ const potensiData = [
   {
     title: 'Karawitan',
     description: `Karawitan adalah seni musik tradisional Jawa yang dimainkan dengan alat gamelan seperti saron, bonang, kendang, dan gong.
-    Di Pedukuhan Sukamaju, kelompok karawitan aktif tampil dalam acara hajatan, pengajian, dan peringatan hari besar nasional atau keagamaan.
+    Di Pedukuhan Tritis, kelompok karawitan aktif tampil dalam acara hajatan, pengajian, dan peringatan hari besar nasional atau keagamaan.
     Kegiatan ini tidak hanya menjaga kelestarian seni musik tradisional, tapi juga menjadi wadah silaturahmi antarwarga dan ekspresi spiritual.
     Kelompok karawitan yang terdiri dari bapak-bapak dan pemuda desa juga menjadi mitra pelengkap untuk pertunjukan wayang, tari tradisional, dan kegiatan sekolah budaya.`,
     media: ['/images/img15.png', '/images/img50.png',  '/images/img38.png'],
