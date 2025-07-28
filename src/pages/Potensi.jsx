@@ -47,7 +47,7 @@ const potensiData = [
 function Potensi() {
   return (
     <div className="container py-5 potensi-container">
-      <h2 className="text-center mb-5">Potensi UMKM & Budaya Pedukuhan Sukamaju</h2>
+      <h2 className="text-center mb-5">Potensi UMKM & Budaya Pedukuhan Tritis</h2>
 
       {potensiData.map((item, index) => {
         const isReversed = index % 2 === 1;
